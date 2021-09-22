@@ -24,7 +24,10 @@ public class SteeringBase : MonoBehaviour
 
         foreach (Collider c in cols)
         {
-            neighbours.Add(c.transform);
+            if (c.GetComponent<SteeringBase>())
+            {
+                neighbours.Add(c.transform);
+            }
         }
 
         return neighbours;

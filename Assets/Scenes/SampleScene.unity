@@ -2293,7 +2293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 564686890610472242, guid: 6ac3127d5694a0e4d877cebc4b0a9d06, type: 3}
-  numberToSpawn: 20
+  numberToSpawn: 100
   locationRange: {x: 25, y: 25}
 --- !u!4 &1412302955
 Transform:
